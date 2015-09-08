@@ -1,0 +1,13 @@
+LIBRARY "DbgFlashVul.DLL"
+
+EXPORTS
+	WinDbgExtensionDllInit
+    ExtensionApiVersion
+    SetBaseAddress
+	SetBpForJitCode
+	EnableTraceJit
+    EnableTraceJitEx
+	SetIdBpForJitCode
+	HandleHookId
+	HandleHookName
+    help
